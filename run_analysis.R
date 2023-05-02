@@ -37,4 +37,5 @@ names(tidy_data)[4:ncol(tidy_data)] <- paste("mean_", names(tidy_data)[4:ncol(ti
 tidy_data <- group_by(tidy_data, subject, activity) %>% summarize_all(mean)
 
 # Write the final tidy dataset to a text file
+
 write.table(tidy_data, file = "tidy_data.txt", row.names = FALSE)
