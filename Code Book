@@ -1,0 +1,39 @@
+Code Book
+This code book describes the variables, the data, and any transformations or work that were performed to clean up the data for the run_analysis.R R script.
+
+Data Source
+The data used in this project is based on the "Human Activity Recognition Using Smartphones Data Set" experiment that was conducted at the University of California, Irvine. The data can be found at the following URL:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The data represents measurements collected from the accelerometers and gyroscopes of a Samsung Galaxy S II smartphone worn by 30 individuals as they performed six activities. The activities were as follows:
+
+Walking
+Walking Upstairs
+Walking Downstairs
+Sitting
+Standing
+Laying
+The smartphone captured various measurements related to each activity, such as the acceleration and angular velocity of the body. The data was split into a training dataset (70% of the data) and a test dataset (30% of the data).
+
+Variables
+The final tidy dataset contains the following variables:
+
+subject: The ID number of the subject who performed the activity. Range: 1-30.
+activity: The type of activity that was performed. Factor variable with 6 levels: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying.
+mean_tBodyAcc-mean()-X: Mean value of time-domain body acceleration along the X-axis. Units: Standard Gravity (g).
+mean_tBodyAcc-mean()-Y: Mean value of time-domain body acceleration along the Y-axis. Units: Standard Gravity (g).
+mean_tBodyAcc-mean()-Z: Mean value of time-domain body acceleration along the Z-axis. Units: Standard Gravity (g).
+mean_tBodyAcc-std()-X: Standard deviation of time-domain body acceleration along the X-axis. Units: Standard Gravity (g).
+mean_tBodyAcc-std()-Y: Standard deviation of time-domain body acceleration along the Y-axis. Units: Standard Gravity (g).
+mean_tBodyAcc-std()-Z: Standard deviation of time-domain body acceleration along the Z-axis. Units: Standard Gravity (g).
+mean_tGravityAcc-mean()-X: Mean value of time-domain gravity acceleration along the X-axis. Units: Standard Gravity (g).
+mean_tGravityAcc-mean()-Y: Mean value of time-domain gravity acceleration along the Y-axis. Units: Standard Gravity (g).
+mean_tGravityAcc-mean()-Z: Mean value of time-domain gravity acceleration along the Z-axis. Units: Standard Gravity (g).
+mean_tGravityAcc-std()-X: Standard deviation of time-domain gravity acceleration along the X-axis. Units: Standard Gravity (g).
+mean_tGravityAcc-std()-Y: Standard deviation of time-domain gravity acceleration along the Y-axis. Units: Standard Gravity (g).
+mean_tGravityAcc-std()-Z: Standard deviation of time-domain gravity acceleration along the Z-axis. Units: Standard Gravity (g).
+mean_tBodyAccJerk-mean()-X: Mean value of time-domain body acceleration jerk along the X-axis. Units: Standard Gravity (g/second).
+mean_tBodyAccJerk-mean()-Y: Mean value of time-domain body acceleration jerk along the Y-axis. Units: Standard Gravity (g/second).
+mean_tBodyAccJerk-mean()-Z: Mean value of time-domain body acceleration jerk along the Z-axis. Units: Standard Gravity (g/second).
+mean_tBodyAccJerk-std()-X: Standard deviation of time-domain body acceleration jerk along the
